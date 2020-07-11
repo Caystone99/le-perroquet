@@ -5,10 +5,10 @@ class PodCard extends Component{
 
     render(){
         return(
-            <a onClick={this.props.podLink}>
+            <span onClick={this.props.podLink}>
             <div id='cards'>
                 <span>
-                    <img  className='card-image' src={this.props.image}/>
+                    <img alt='Pod' className='card-image' src={this.props.image}/>
                 </span>
                 <div className='cardContent'>
                     <span className='card-content'>
@@ -17,7 +17,7 @@ class PodCard extends Component{
                     </span>
                 </div>
             </div>
-            </a>
+            </span>
         );
     }
 }

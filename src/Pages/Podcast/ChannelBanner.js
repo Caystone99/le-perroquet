@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 /*
 var PushManager: {
@@ -13,7 +13,7 @@ const ChannelBanner =(props)=>{
     return(
         <div id='channelBanner'>
             <span>
-                <img className='channelImage' alt='channel image' src={props.channelImage}/>
+                <img className='channelImage' alt='channel' src={props.channelImage}/>
             </span>
             <span className='channelDesc'>
                 <h3>{props.channelTitle}</h3>

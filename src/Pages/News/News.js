@@ -1,4 +1,4 @@
-import React, {useState, Component} from 'react';
+import React, {Component} from 'react';
 import NewsCard from './NewsCard';
 import Header from '../Navigation/Header';
 import Footer from '../Navigation/Footer';

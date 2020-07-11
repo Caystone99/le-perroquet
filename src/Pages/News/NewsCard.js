@@ -8,7 +8,7 @@ class NewsCard extends Component{
         return(
             <div id='cards'>
                 <span>
-                    <img  className='card-image' src={this.props.image} alt='card image'/>
+                    <img alt='NewsImage' className='card-image' src={this.props.image}/>
                 </span>
                 <div className='cardContent'>
                     <span className='card-content'>
@@ -20,8 +20,8 @@ class NewsCard extends Component{
 
                     <div className='cardButtons'>
                         
-                        <a className='card-source'>{this.props.source}</a> 
-                        <a className='card-date'>{this.props.date}</a>
+                        <h5 className='card-source'>{this.props.source}</h5> 
+                        <h5 href="#" className='card-date'>{this.props.date}</h5>
                     </div>
                 </div>
             </div>

@@ -48,10 +48,10 @@ class Footer extends Component{
             <footer>
 
                 <nav id="mobile-nav">
-                    <a onClick = {podClick} className="foot-nav-item"><i className="fas fa-microphone-alt"></i><br/><span>PODCAST</span></a>
-                    <a onClick = {bodyClick} className="foot-nav-item"><i className="fa fa-home"></i><br/><span>HOME</span></a>
-                    <a onClick = {newsClick} className="foot-nav-item"><i className="fas fa-newspaper"></i><br/><span>NEWS</span></a>
-                    <a onClick = {aboutClick} className="foot-nav-item"><i className="fa fa-question"></i><br/><span>ABOUT US</span></a>
+                    <span onClick = {podClick} className="foot-nav-item"><i className="fas fa-microphone-alt"></i><br/><span>PODCAST</span></span>
+                    <span onClick = {bodyClick} className="foot-nav-item"><i className="fa fa-home"></i><br/><span>HOME</span></span>
+                    <span onClick = {newsClick} className="foot-nav-item"><i className="fas fa-newspaper"></i><br/><span>NEWS</span></span>
+                    <span onClick = {aboutClick} className="foot-nav-item"><i className="fa fa-question"></i><br/><span>ABOUT US</span></span>
                 </nav>
             </footer>
         );
