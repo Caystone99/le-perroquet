@@ -13,7 +13,7 @@ class News extends Component{
                 <Feature/>
                 <NewsCard
                     image = './img/cd-3.jpg'
-                    newsHeadline = "Buhari says 'NO' to France influence on eco"
+                    newsHeadline = "Buhari:'NO to France influence on eco'"
                     newsBody= "Loren Ipsum dolor isit, bunch od ummy code to fill up space lol."
                     newsBodyMore='More dummy code that does nothing, just fills up space'
                     source = 'BBC Africa'
@@ -21,11 +21,11 @@ class News extends Component{
                 />
 
                 <NewsCard
-                    image = './img/cd-2.jpg'
+                    image = './img/cd-3.jpg'
                     newsHeadline = 'Nigerian border remains closed'
                     newsBody= "Loren Ipsum dolor isit, bunch od ummy code to fill up space lol."
                     newsBodyMore='More dummy code that does nothing, just fills up space'
-                    source = 'BBC Africa'
+                    source = 'VOX Africa'
                     date = '00:36 9th July, 2020'
                 />
 
@@ -34,7 +34,16 @@ class News extends Component{
                     newsHeadline = 'Lisa Simpson gets a myPod'
                     newsBody= "Loren Ipsum dolor isit, bunch od ummy code to fill up space lol."
                     newsBodyMore='More dummy code that does nothing, just fills up space'
-                    source = 'BBC Africa'
+                    source = 'CNN Africa'
+                    date = '00:36 9th July, 2020'
+                />
+
+                <NewsCard
+                    image = './img/cd-1.jpg'
+                    newsHeadline = 'Loro Title'
+                    newsBody= "Loren Ipsum dolor isit, bunch od ummy code to fill up space lol."
+                    newsBodyMore='More dummy code that does nothing, just fills up space'
+                    source = 'BJ Africa'
                     date = '00:36 9th July, 2020'
                 />
 
