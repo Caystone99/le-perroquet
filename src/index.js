@@ -38,7 +38,7 @@ class Body extends Component{
                 <Header/>
                 <Banner
                     bannerImage = './assets/slide1.jpg'
-                    captionHeader = 'War on DeathStar leaves many wondering about the fate of the Galaxy'
+                    captionHeader = 'War on DeathStar leaves many wondering on the fate of the Galaxy'
 
                 />
                 <NewsCard
