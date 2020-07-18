@@ -296,6 +296,26 @@ footer{
 
 /* Tablet View */
 @media (min-width:700px) and (max-width:1080px){
+
+  .bannerHeader{
+    filter: brightness(100%);
+    padding-top:100px;
+    width:70%;
+    color:#fff;
+    text-shadow: 1px 1px #727272;
+    font-size: 30px;
+    cursor:pointer;
+    padding-left:20px;
+    position: relative;
+    
+  }
+
+  .bannerHeader:hover{
+    font-size: 31px;
+    transition:ease-in(.5s);
+    transition-duration: 1s;
+  }
+  
    
 #cards{
   width:46%;
@@ -381,6 +401,26 @@ footer{
 
 /*Mobile Display*/
 @media (min-width:300px) and (max-width:699.9px){
+
+  .bannerHeader{
+    filter: brightness(100%);
+    padding-top:230px;
+    width:70%;
+    color:#fff;
+    text-shadow: 1px 1px #727272;
+    font-size: 25px;
+    cursor:pointer;
+    padding-left:20px;
+    position: relative;
+    
+  }
+
+  .bannerHeader:hover{
+    font-size: 26px;
+    transition:ease-in(.5s);
+    transition-duration: 1s;
+  }
+  
   
 #cards{
   flex-flow: row wrap;
