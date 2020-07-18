@@ -5,6 +5,7 @@ class PodCard extends Component{
 
     render(){
         return(
+            <div id='card-holder'>
             <span onClick={this.props.podLink}>
             <div id='cards'>
                 <span>
@@ -18,6 +19,7 @@ class PodCard extends Component{
                 </div>
             </div>
             </span>
+            </div>
         );
     }
 }
